@@ -160,6 +160,12 @@
       </div>
       <p class="section-hint">待機中の小さなループモーション（呼吸の上下動・ゆらゆら・たまの首かしげ・目線・小さなバウンス）。スライダーのダブルクリックで初期値0.6に戻ります。<br>「首かしげ（ワンタッチ）」ボタンを押すと、その場で約1.7秒首をかしげます（左右交互）。録画中に押せば、決まったセリフの所で傾けられます。<br>「房のバラつき」は髪の房ごとのバネの反応のずれ具合です（0で従来通り全房均一）。呼吸の上下動に合わせた微かな刺激も髪のバネに入ります（呼吸スライダー連動）。</p>
     </section>
+    <section class="sec" data-sec="clothlab"><h2>脚・服（実験）</h2>
+      <div class="row"><label>脚の接地</label><input type="range" id="prefGround" min="0" max="1" step="0.05"><span class="val"></span></div>
+      <div class="row"><label>スカートの揺れ</label><input type="range" id="prefSkirtAmp" min="0" max="2" step="0.05"><span class="val"></span></div>
+      <div class="row"><label>腕の遅れ</label><input type="range" id="prefArmAmp" min="0" max="2" step="0.05"><span class="val"></span></div>
+      <p class="section-hint">脚の接地: 体の傾きに対して脚・靴が地面に残る強さです（0で従来通り全体が一緒に傾きます）。スカートの揺れ・腕の遅れ: 体の動きにスカートの裾と腕が少し遅れてついてくる量です。</p>
+    </section>
     <section class="sec" data-sec="anchors"><h2>アンカー（基準点）</h2>
       <p class="section-hint">目・口・首などの自動検出位置がずれているときに、プレビュー上でドラッグして直せます。</p>
       <div class="btns">
