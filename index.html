@@ -130,7 +130,7 @@
     </section>
     <section class="sec" data-sec="bangs"><h2>前髪</h2>
       <div class="row"><label>揺れ</label><input type="range" id="pFhAmp" min="0" max="3" step="0.01" value="2"><span class="val"></span></div>
-      <div class="row"><label>柔らかさ</label><input type="range" id="pFhSoft" min="0" max="2" step="0.01" value="0.4"><span class="val"></span></div>
+      <div class="row"><label>柔らかさ</label><input type="range" id="pFhSoft" min="0" max="2" step="0.01" value="1.0"><span class="val"></span></div>
       <div class="row"><label>ブロック左</label><input type="range" id="pBangL" min="-1" max="1" step="0.01" value="0"><span class="val"></span></div>
       <div class="row"><label>ブロック中央</label><input type="range" id="pBangC" min="-1" max="1" step="0.01" value="0"><span class="val"></span></div>
       <div class="row"><label>ブロック右</label><input type="range" id="pBangR" min="-1" max="1" step="0.01" value="0"><span class="val"></span></div>
@@ -153,11 +153,12 @@
       <div class="row"><label>ゆらゆら</label><input type="range" id="prefLoopSway" min="0" max="1" step="0.05"><span class="val"></span></div>
       <div class="row"><label>目線</label><input type="range" id="prefLoopGaze" min="0" max="1" step="0.05"><span class="val"></span></div>
       <div class="row"><label>バウンス</label><input type="range" id="prefLoopBounce" min="0" max="1" step="0.05"><span class="val"></span></div>
+      <div class="row"><label>房のバラつき</label><input type="range" id="prefHairVar" min="0" max="1" step="0.05"><span class="val"></span></div>
       <div class="row"><label>首かしげ強さ</label><input type="range" id="prefTiltAmp" min="0" max="1" step="0.05"><span class="val"></span></div>
       <div class="btns">
         <button class="btn" type="button" id="btnTilt">首かしげ（ワンタッチ）</button>
       </div>
-      <p class="section-hint">待機中の小さなループモーション（呼吸の上下動・ゆらゆら・たまの首かしげ・目線・小さなバウンス）。スライダーのダブルクリックで初期値0.6に戻ります。<br>「首かしげ（ワンタッチ）」ボタンを押すと、その場で約1.7秒首をかしげます（左右交互）。録画中に押せば、決まったセリフの所で傾けられます。</p>
+      <p class="section-hint">待機中の小さなループモーション（呼吸の上下動・ゆらゆら・たまの首かしげ・目線・小さなバウンス）。スライダーのダブルクリックで初期値0.6に戻ります。<br>「首かしげ（ワンタッチ）」ボタンを押すと、その場で約1.7秒首をかしげます（左右交互）。録画中に押せば、決まったセリフの所で傾けられます。<br>「房のバラつき」は髪の房ごとのバネの反応のずれ具合です（0で従来通り全房均一）。呼吸の上下動に合わせた微かな刺激も髪のバネに入ります（呼吸スライダー連動）。</p>
     </section>
     <section class="sec" data-sec="anchors"><h2>アンカー（基準点）</h2>
       <p class="section-hint">目・口・首などの自動検出位置がずれているときに、プレビュー上でドラッグして直せます。</p>
