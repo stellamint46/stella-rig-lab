@@ -154,11 +154,13 @@
       <div class="row"><label>目線</label><input type="range" id="prefLoopGaze" min="0" max="1" step="0.05"><span class="val"></span></div>
       <div class="row"><label>バウンス</label><input type="range" id="prefLoopBounce" min="0" max="1" step="0.05"><span class="val"></span></div>
       <div class="row"><label>房のバラつき</label><input type="range" id="prefHairVar" min="0" max="1" step="0.05"><span class="val"></span></div>
+      <div class="row"><label>毛先の伝播</label><input type="range" id="prefHairSeries" min="0" max="1" step="0.05"><span class="val"></span></div>
+      <div class="row"><label>ツインテの揺れ</label><input type="range" id="prefBhAmp" min="0" max="1" step="0.05"><span class="val"></span></div>
       <div class="row"><label>首かしげ強さ</label><input type="range" id="prefTiltAmp" min="0" max="1" step="0.05"><span class="val"></span></div>
       <div class="btns">
         <button class="btn" type="button" id="btnTilt">首かしげ（ワンタッチ）</button>
       </div>
-      <p class="section-hint">待機中の小さなループモーション（呼吸の上下動・ゆらゆら・たまの首かしげ・目線・小さなバウンス）。スライダーのダブルクリックで初期値0.6に戻ります。<br>「首かしげ（ワンタッチ）」ボタンを押すと、その場で約2.9秒しっかり首をかしげます（左右交互）。録画中に押せば、決まったセリフの所で傾けられます。<br>「房のバラつき」は髪の房ごとのバネの反応のずれ具合です（0で従来通り全房均一）。呼吸の上下動に合わせた微かな刺激も髪のバネに入ります（呼吸スライダー連動）。</p>
+      <p class="section-hint">待機中の小さなループモーション（呼吸の上下動・ゆらゆら・たまの首かしげ・目線・小さなバウンス）。スライダーのダブルクリックで初期値0.6に戻ります。<br>「首かしげ（ワンタッチ）」ボタンを押すと、その場で約2.9秒しっかり首をかしげます（左右交互）。録画中に押せば、決まったセリフの所で傾けられます。<br>「房のバラつき」は髪の房ごとのバネの反応のずれ具合です（0で従来通り全房均一）。「毛先の伝播」は根元→毛先へ揺れが伝わる強さです。目線は滑らかに漂わず、サッと動いて止まる動き（サッケード）になりました。呼吸の上下動に合わせた微かな刺激も髪のバネに入ります（呼吸スライダー連動）。</p>
     </section>
     <section class="sec" data-sec="clothlab"><h2>脚・服（実験）</h2>
       <div class="row"><label>脚の接地</label><input type="range" id="prefGround" min="0" max="1" step="0.05"><span class="val"></span></div>
